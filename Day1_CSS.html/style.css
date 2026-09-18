@@ -7,6 +7,7 @@ table{
     border: 1px solid rgb(33, 6, 167);
     text-align: center;
     margin:auto;
+    
 }
 th{
     border: 1px solid blue;
@@ -24,5 +25,14 @@ body{
 }
 .tdfri{
 background-color: azure;
+}
+.main{
+    border: 1px solid palevioletred;
+}
+.arts{
+    border: 1px solid green;
+}
+.section{
+    border: 1px solid blue;
 }
 
