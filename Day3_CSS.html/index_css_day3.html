@@ -4,10 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS-Displays</title>
+    <style>
+        #SuMan,.Somaan,.Rin{
+            text-align: center;
+            display:block;
+            
+        }
+        .Somaan{
+            border: 2px solid rgb(31, 19, 167);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration:underline;
+            background-color: rgb(255, 213, 232);
+        }
+        #SuMan{
+            border: 2px solid rgb(12, 58, 209);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(0, 0, 0);
+             background-color: rgb(216, 133, 172);
+        }
+        .Rin{
+            border: 2px dashed rgb(11, 35, 114);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: blue;
+            background-color: rgb(246, 130, 186);
+        }
+        .img{
+            width:100px;
+            border: 2px solid rgb(2, 2, 81);
+            border-radius: 50%;
+        }
+        .container{
+            display: block;
+            text-align: center;
+            background-color: rgb(171, 244, 244);
+            border-radius: 5px;
+        }
+        .ptop{
+            background-color: rgb(3, 158, 160);
+            color: white;
+            text-align: right;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .items{
+            display: flex;
+            gap:20px;
+        }
+        .item{
+           width:110px;
+           height:110px;
+           object-fit: cover;
+            border-radius: 15px;
+        }
+        .research{
+            background-color: #d2e6f5;
+            padding: 18px 20px 22px;
+            width:100%;
+            box-sizing: border-box;
+            border-radius: 15px;
+        }
+        
+        .item img{
+            width:120px;
+            height:120px;
+            object-fit: cover;
+            border: #111;white-space: nowrap;
+        }
+
+
+    </style>
 </head>
 <body>
     <p class="Somaan"> I am block.</p>
-    <p class="Su Man">I am inline.</p>
+    <p id="SuMan">I am inline.</p>
     <p class="Rin">I am inline-block.</p>
+    <div class="container">
+        <p class="ptop">Managed_Account</p>
+        <img class="img"src="/Day3_CSS.html/image/profile-pic.png">
+        <p>My Profile<br><br>
+            Name: Su Man<br> Student ID:202300232<br>Email: dhsomaan@gmail.com
+        </p><br>
+    </div><br>
+<div class = "research">
+    <p>Refine your search for facebook profile</p>
+
+    <div class="items">
+    <div>
+        <img class="item" src="/Day3_CSS.html/image/funny_default.webp" alt="funny_default">
+        <p>Funny Default</p>
+    </div>
+
+    <div>
+        <img class="item" src="/Day3_CSS.html/image/clip_art.webp" alt="clip_art">
+        <p>Clip Art</p>
+    </div>
+
+    <div>
+        <img class="item" src="/Day3_CSS.html/image/cover_template.webp" alt="cover_template">
+        <p>Cover Template</p>
+    </div>
+
+    <div>
+        <img class="item" src="/Day3_CSS.html/image/layout_example.webp" alt="layout_example">
+        <p>layout Example</p>
+    </div>
+
+    <div>
+        <img class="item" src="/Day3_CSS.html/image/larisca_nel.webp" alt="larisca_nel">
+        <p>Larisca nel</p>
+    </div>
+
+    <div>
+        <img class="item" src="/Day3_CSS.html/image/avatar_for.webp" alt="avatar_for">
+        <p>Avatar For</p>
+    </div>
+    </div>
 </body>
 </html>
