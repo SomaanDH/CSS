@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Anime Interest Board</title>
+
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+            background: #f7e9ff;
+            color: #3b155f;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /*
+        Think:
+        Without display: flex, the cards appear one below another.
+        display: flex changes the board into a Flex Container.
+        */
+
+        /* Flexbox board */
+        .board {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* Interest cards */
+        .card {
+            width: 150px;
+            padding: 20px;
+            border: 2px solid #7b2cbf;
+            background: #ead7ff;
+            color: #3b155f;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            .card {
+                width: 120px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Interest: Anime</h1>
+
+    <div class="board">
+        <div class="card">🎬 Anime Series</div>
+        <div class="card">⭐ Characters</div>
+        <div class="card">📖 Manga</div>
+        <div class="card">🎨 Animation</div>
+        <div class="card">🎵 Anime Music</div>
+        <div class="card">🏆 Anime Tournaments</div>
+    </div>
+
+</body>
+</html>
