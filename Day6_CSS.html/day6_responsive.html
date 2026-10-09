@@ -7,6 +7,7 @@
     <style>
         :root{
             background-color: lightpink;
+           
         }
         .container{
             display: flex;
@@ -21,6 +22,25 @@
             width: 50vw;
             height: 50vh;
             background-color:bisque;
+            border-radius: 15px;
+            box-shadow: 1px;
+            justify-content: center;
+            align-items: center;
+             overflow: auto;
+        }
+        @media(max-width:900px){
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            .item{
+                background-color: antiquewhite;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align:center ;
+            }
+            
         }
     </style>
 </head>
@@ -28,8 +48,8 @@
      <h1 style="text-align: center;">Welcome Again</h1>
     <div class="container">
        
-        <div class="item"></div>
-        <div class="item"></div>
+        <div class="item"><h3>Me on devices</h3></div>
+        <div class="item"><p style="justify-content: center; padding: 5px;">Garden Studio self limits its site by using the parallax technique only at the top of the site. This means that the image must be a real beauty that shows off their design skills, and thankfully is it exactly that. An almost graphic representation of a garden bordering the page to the left and right with tree silhouettes and topping with the autumnal leafed branches. The eye is drawn to the center and led back through carefully crafted layers towards the setting sun. Lovely. Scroll down to the static page and it’s as if the sun is setting completely. Rather clever and very effective.This crunchy food snack site uses large squared blocks of color filled with images and overlaying text. It’s perhaps how Mondrian would have used Parallax. As the blocks slightly overlap and animate it could be over-fussy, but the strong clean typography holds it together throughout the site.</p></div>
         <div class="item"></div>
         <div class="item"></div>
     </div>
