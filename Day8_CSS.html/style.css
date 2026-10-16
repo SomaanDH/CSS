@@ -19,11 +19,12 @@ body{
 }
 .container{
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 8fr 1fr;;
     grid-template-areas:
-        "item1 item2"
-        "item1 item3";
+        "item1 item1 item1 item1 item1 item1"
+        "item2 item3 item3 item3 item4 item4"
+        "item5 item5 item5 item5 item5 item5";
     gap: 20px;
 }
 .item1{
@@ -34,4 +35,10 @@ body{
 }
 .item3{
     grid-area:item3;
+}
+.item4{
+    grid-area:item4;
+}
+.item5{
+    grid-area:item5;
 }
